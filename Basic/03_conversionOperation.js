@@ -25,3 +25,11 @@ console.log(valueInBoolean);
 // 1 => true
 // 0 => false
 // undefined => false
+
+// ************operations*************//
+
+console.log(1+2); // simple addition:3
+console.log("1"+2);// string addition:12
+console.log(1+"2");// string addition:12
+console.log("1"+2+3);// output :123// string addition
+console.log(1+2+"3");//output: 33 // first two will be added and 3 performs string addition
