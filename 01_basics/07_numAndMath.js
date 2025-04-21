@@ -1,4 +1,3 @@
-/*
 let score = 100;
 console.log(score);
 
@@ -15,7 +14,6 @@ console.log(otherNumber.toPrecision(3));// this helps to find the precision valu
 
 const hundreds = 100000;
 console.log(hundreds.toLocaleString('en-IN'));
-*/
 
 // ***********math**************8
 
@@ -27,9 +25,19 @@ console.log(Math.floor(2.96));
 console.log(Math.min(2,4,5,1,6));
 console.log(Math.max(2,4,5,1,6));
 
-// random value 
-console.log(Math.randomI());
+// random 
+//  it helps to find the random values.
+console.log(Math.random());// innitially it gives the random values between the 0 and 1
 
+// you can find the random values between any ranges
+console.log(Math.random()*10+1);// this gives the value greater than one
+
+// to find the random value between two mumber: let say:- min and max
+// Math.random()*(max-min+1)+min
+let min = 10;
+let max = 20;
+console.log(Math.floor(Math.random()*(max-min+1)+min));
+//here floor is used to remove the decimal points and choose the minimum value
 
 
 
