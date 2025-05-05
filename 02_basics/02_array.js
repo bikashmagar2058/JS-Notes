@@ -1,8 +1,9 @@
 const remoteMember = ["shikhar", "sudip", "khatri"];
 const officeMember = ["bikash", "samip","tiwari","dhane","prashanna"];
+const pokhara = ["lakeside","bindhabasini","sarangkot" ]
 
-remoteMember.push(officeMember);
-console.log(remoteMember);
+// remoteMember.push(officeMember);
+// console.log(remoteMember);
 // this method is not suitable because the member of the office act as the one element while combining
 
 // concatination method 
@@ -11,7 +12,7 @@ console.log(allMember);
 // this method also to much suitable if there are more than two array to be combine 
 
 //spread method 
-const asthabhujMember = [...remoteMember,...officeMember];
+const asthabhujMember = [...remoteMember,...officeMember,...pokhara];
 console.log(asthabhujMember);
 
 //flat(infinity)

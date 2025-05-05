@@ -31,7 +31,7 @@ console.log(myArr.indexOf(4));// it find the index of the specific element of th
 
 // slice and splice
 console.log("A ", myArr );
-console.log(myArr.slice(1,3));// 1 is the starting index and 3 is ending index
+console.log(myArr.slice(1,4));// 1 is the starting index and 3 is ending index
 //slice dosenot include the element of teh ending index. as in eg. the value of 1 and 2 index will display
 
 console.log("B ", myArr);

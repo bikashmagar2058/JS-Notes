@@ -27,7 +27,7 @@ console.log(Math.max(2,4,5,1,6));
 
 // random 
 //  it helps to find the random values.
-console.log(Math.random());// innitially it gives the random values between the 0 and 1
+console.log (Math.round(Math.random()));// innitially it gives the random values between the 0 and 1
 
 // you can find the random values between any ranges
 console.log(Math.random()*10+1);// this gives the value greater than one
