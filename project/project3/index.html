@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Random Number</title>
+    <style>
+        body{
+            margin-top: 100px;
+            background: black;
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+        }
+        form{
+            display:flex;
+            flex-direction: column;
+        }
+
+        #guessField{
+            padding: 8px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        form label{
+            text-align: center;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        #submit{
+            border-radius: 8px;
+            padding: 10px;
+            font-weight: bold;
+        }
+        #newGame{
+            margin-top: 15px;
+            font-weight: 600;
+            color: red;
+            padding: 6px;
+            border-radius: 5px;
+        }
+        .discription{
+            text-align: center;
+            font-weight: 500;
+            color: rgb(235, 80, 80);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Number Guessing Game</h1>
+        <div class="discription">
+        <p>Guess the Random Number From 1 to 100</p>
+        <p>You have 10 attempts to guess the Number</p>
+        </div>
+        <form>
+            <label>Guess a Number</label>
+            <input id="guessField" type="text">
+            <button id="submit" type="submit">Submit Guess</button>
+        </form>
+        <div class="resultParas">
+            <P>Previous Guess: <span class="guesses"></span></P>
+            <p>Guesses Remaining: <span class="lastResult"></span></p>
+            <p class="lowOrHigh"></p>
+            <button id="newGame">New Game</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
